@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #47332C;
+    --secondary-color: #FFAA00;
+    --third-color: #594741;
+    --white-color: white;
+    --danger-color: #FF3D00;
+    --light-blue: #55ACEE;
+    --dark--blue: #1877F2;
+    --btn-color: #FF8753;
+    --dark--brown: #333333;
+    --light--brown: #717070;
+    --light--gray: #94928F;
+    --op--gray: #D9D9D9;
+    --light--yellow: #FFF8EB;
+    --degree-one-white: #F6F4EE;
+    --card--color: #FFFBF9;
+
+}
+
+.NavBar .logo {
+    width: 100px;
+}
+
+.activeItem {
+    color: var(--secondary-color) !important;
+}
+
+.NavBar {
+
+    background-color: var(--third-color) !important;
+
+}
+
+.NavBar__pages button {
+    color: white;
+}
+
+.NavBar__items a {
+    color: white;
+    font-weight: bold;
+}
+
+.NavBar__items a :hover {
+    color: var(--secondary-color) !important;
+    font-weight: bold;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.content {
+    position: relative;
+    /* z-index: 43; */
+    /* bottom: -41%; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    /* width: 100%; */
+    padding: 20px;
+    top: -581px;
+    text-align: center;
+}
+
+.Donation,
+.CreateCasuse {
+    /* width: 300px;*/
+    padding: 1.5em;
+    font-size: 28px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: var(--card--color);
+    box-shadow: 2px 2px 4px#d7d3d3;
+}
+
+.Donation p {
+    width: 280px;
+}
+
+.mostNeeded {
+    margin-top: 50px;
+}
+
+.AboutUS {
+    padding: 6rem;
+}
+
+.Donation button,
+.CreateCasuse button,
+.DonationBtn {
+    background-color: var(--card--color);
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid var(--btn-color);
+    font-size: 18px;
+    width: 100px;
+}
+
+.CreateCasuse button {
+    width: 140px;
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+}
+
+.CreateCasuse p {
+    margin-top: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 5rem;
+    justify-content: space-around;
+    justify-items: start;
+}
+
+.cards .card {
+    width: 350px !important;
+}
+
+.cards .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.firstPart div {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    height: 348px;
+    width: 558px;
+}
+
+.firstPart img,
+.secPart img {
+    width: 558px;
+}
+
+.firstPart div h2,
+.secPart div h2 {
+    margin-top: 1rem;
+    color: var(--secondary-color);
+}
+
+.secPart div button,
+.firstPart div button {
+    background-color: var(--light--yellow);
+    padding: 9px;
+    border-radius: 10px;
+    border: 2px solid var(--btn-color);
+    font-size: 18px;
+    width: 150px;
+}
+
+.firstPart div button {
+    background-color: var(--secondary-color);
+}
+
+.firstPart div h3,
+.secPart div h3 {
+    font-weight: 400;
+    margin: 10px 20px;
+}
+
+.firstPart div p,
+.secPart div p {
+    font-weight: 300;
+}
+
+.secPart div {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--light--yellow);
+    height: 348px;
+    width: 558px;
+}
+.BlogSec button{
+    background-color: var(--secondary-color);
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid var(--white-color);
+    font-size: 15px;
+    width: 120px;
+    margin-left: 89%;
+    margin-bottom: 12px;
+}
+.imageExplain {
+    width: 400px;
+    border-radius: 5px;
+
+}
+
+.Explain span h4 {
+    font-size: 17px;
+    margin-top: 1px;
+}
+
+.Explain span {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+}
+.gallary img{
+    border-radius: 5px;
+    width: 400px;
+}
+.gallary{
+      display: grid;
+        grid-template-columns: repeat(1fr);
+        gap: 3rem;
+        justify-content: space-around;
+        justify-items: start;
+}
+.summary{
+    background-color: var(--main-color);
+    padding: 1rem;
+}
+.copyRight{
+    padding: 15px;
+    background-color: var(--degree-one-white);
+}
+.copyRight h4 ,.copyRight h5{
+font-size: 17px;
+font-weight: 500;
+}
+.summary h5{
+margin-bottom: 10px;
+color: var(--white-color);
+}
+.summary ul{
+list-style: none;
+color: var(--white-color);
+}
+.summary li{
+margin-top: 10px;
+}
+@media screen and (max-width: 640px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        gap: 5rem;
+        justify-content: space-around;
+        justify-items: start;
+    }
+}
+
+@media screen and (min-width: 640px)and (max-width:768px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        gap: 5rem;
+        justify-content: space-around;
+        justify-items: start;
+    }
+    .gallary{
+      display: grid;
+        grid-template-columns: repeat(1fr);
+        gap: 3rem;
+        justify-content: space-around;
+        justify-items: start;
+}
+}
+
+@media screen and (min-width: 1024px)and (max-width:1280px) {
+    .NavBar__pages ul {
+        gap: 1rem !important;
+        justify-content: space-between !important;
+        margin-left: 30%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+        justify-content: space-around;
+        justify-items: end;
+    }
+    .gallary{
+      display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        justify-content: space-around;
+        justify-items: start;
+}
+}
+
+@media (min-width: 1280px) {
+    .NavBar__pages ul {
+        gap: 1rem !important;
+        justify-content: space-between !important;
+        margin-left: 40%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 2rem;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    .gallary{
+      display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+        justify-content: space-around;
+        justify-items: start;
+}
+
+}
