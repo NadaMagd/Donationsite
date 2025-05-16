@@ -1,0 +1,429 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Jane Doe",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "jane@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 2,
+            "name": "Nada Magdy",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "nada@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 3,
+            "name": "Mona abdelazem",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "Monae@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 4,
+            "name": "Ziad Ali",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "ziad23@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 5,
+            "name": "Mena Mahdy",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "menaMahdy@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 5,
+            "name": "Mriahan lotfy",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "mere123@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 6,
+            "name": "Nada emad",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "nadaEmad345@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 7,
+            "name": "yasmeen Mahmoud",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "yasmeenMahmoud@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 8,
+            "name": "Hassan Ebrahim",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "Fox23@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 9,
+            "name": "Abdallah 3omda",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "3omda@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 10,
+            "name": "Hady mohmed",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "hady@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 11,
+            "name": "mohaned Mahomed",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "honda@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 12,
+            "name": "motaz elalfy",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "motaz@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 13,
+            "name": "yasmeen nafe",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "yaso@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 14,
+            "name": "jihan Ahmed",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "jojo@example.com",
+            "password": "hashed_password"
+        },
+        {
+            "id": 15,
+            "name": "Amira mohmmed",
+            "role": "campaigner",
+            "isActive": true,
+            "email": "mero9@example.com",
+            "password": "hashed_password"
+        }
+    ],
+    "cases": [
+        {
+            "id": 1,
+            "title": "Medicine",
+            "category": "Health",
+            "image": "assets/images/download.jpg",
+            "description": "We are suffering from a shortage of wound care medication such as gauze, cotton, antiseptic, and healing ointments, in addition to painkillers. The percentage of wounded has reached a quarter, so we need medicine at the worst possible time.",
+            "creatorId": 1,
+            "goal": 5000,
+            "deadline": "2024-05-31",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 1,
+                    "title": "gauze",
+                    "amount": 500
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Medical supplies",
+            "category": "Health",
+            "image": "assets/images/images.jpg",
+            "description": "We are suffering from a shortage of medical supplies such as gloves, masks, syringes and stethoscopes. We need them so that doctors can treat the wounded without any contamination and to maintain the safety of children.",
+            "creatorId": 1,
+            "goal": 9000,
+            "deadline": "2024-06-10",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 2,
+                    "title": "Mask",
+                    "amount": 600
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Treatment medications",
+            "category": "Health",
+            "image": "assets/images/Crutches-sbt-051624-13-1024x760.jpg",
+            "description": "We need medical equipment such as blood sugar, blood pressure, temperature, heart rate monitors, dental equipment, and x-ray equipment in order to live a healthy life.",
+            "creatorId": 1,
+            "goal": 10000,
+            "deadline": "2024-06-20",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 3,
+                    "title": "blood pressure",
+                    "amount": 6000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "medical devices",
+            "category": "Health",
+            "image": "assets/images/Crutches-sbt-051624-13-1024x760.jpg",
+            "description": "We suffer from a shortage of medical solutions, treatment for colds and other flus, treatment for pregnant women such as vitamins, treatment for infants, and milk for children.",
+            "creatorId": 1,
+            "goal": 9000,
+            "deadline": "2024-06-12",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 4,
+                    "title": "colds",
+                    "amount": 700
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Education Books",
+            "category": "Education",
+            "image": "assets/images/Education1.jpg",
+            "description": "We need educational books for primary school children to help them learn science, religion, prevention, and the Qur’an. We need these books so that we can teach them..",
+            "creatorId": 2,
+            "goal": 4000,
+            "deadline": "2024-06-12",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 5,
+                    "title": "book",
+                    "amount": 700
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "University books",
+            "category": "Education",
+            "image": "assets/images/Education.jpg",
+            "description": "We need university books in medicine, engineering and other sciences. We are suffering from a lack of money, so we need them to finish university and be able to support our society.",
+            "creatorId": 2,
+            "goal": 8000,
+            "deadline": "2024-07-03",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 6,
+                    "title": "book",
+                    "amount": 5000
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "University expenses",
+            "category": "Education",
+            "image": "assets/images/Education2.jpg",
+            "description": "We are expatriates from countries and a war broke out in our country and we were unable to communicate with our families and we are in a university that needs its expenses and housing expenses",
+            "creatorId": 2,
+            "goal": 10000,
+            "deadline": "2024-07-03",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 7,
+                    "title": "expenses",
+                    "amount": 5000
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "School expenses",
+            "category": "Education",
+            "image": "assets/images/ai-generated-behold-the-graceful-scene-as-the-delicate-hands-of-a-woman-tenderly-cradle-education-free-photo.jpg",
+            "description": "We are expatriates from countries and there was a war in our country and we could not communicate with our families and we need the children’s school expenses",
+            "creatorId": 2,
+            "goal": 8000,
+            "deadline": "2024-06-9",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 8,
+                    "title": "expenses",
+                    "amount": 3000
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "flour and rice",
+            "category": "food",
+            "image": "assets/images/food2.jpg",
+            "description": "We need flour and rice to be able to eat and make bread. We are exposed to war and food shortages. We will die of hunger.",
+            "creatorId": 3,
+            "goal": 6000,
+            "deadline": "2024-06-9",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 9,
+                    "title": "rice",
+                    "amount": 3070
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Need food",
+            "category": "food",
+            "image": "assets/images/food3.jpg",
+            "description": "We need food. We are suffering from famine and every day someone dies of hunger. We need food or livestock and we will cook it. The children and women could not bear it.",
+            "creatorId": 3,
+            "goal": 9000,
+            "deadline": "2024-06-10",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 10,
+                    "title": "food",
+                    "amount": 8070
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Ramadan cartoon",
+            "category": "food",
+            "image": "assets/images/food2.jpg",
+            "description": "In the month of Ramadan, we need food to break our fast, and we no longer have food due to the shortage of food supplies as a result of the war and the lack of supplies.",
+            "creatorId": 3,
+            "goal": 6000,
+            "deadline": "2024-06-14",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 11,
+                    "title": "Ramadan cartoon",
+                    "amount": 4070
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Canned food",
+            "category": "food",
+            "image": "assets/images/food2.jpg",
+            "description": "We need flour and rice to be able to eat and make bread and Canned food . We are exposed to war and food shortages. We will die of hunger",
+            "creatorId": 3,
+            "goal": 6000,
+            "deadline": "2024-06-1",
+            "isApproved": false,
+            "rewards": [
+                {
+                    "id": 12,
+                    "title": "Canned",
+                    "amount": 4070
+                }
+            ]
+        }
+    ],
+    "pledges": [
+        {
+            "id": 1,
+            "campaignId": 1,
+            "userId": 1,
+            "amount": 500,
+            "rewardId": 1
+        },
+        {
+            "id": 2,
+            "campaignId": 1,
+            "userId": 2,
+            "amount": 600,
+            "rewardId": 2
+        },
+        {
+            "id": 3,
+            "campaignId": 1,
+            "userId": 3,
+            "amount": 6000,
+            "rewardId": 3
+        },
+        {
+            "id": 4,
+            "campaignId": 1,
+            "userId": 4,
+            "amount": 700,
+            "rewardId": 4
+        },{
+            "id": 5,
+            "campaignId": 2,
+            "userId": 5,
+            "amount": 700,
+            "rewardId": 5
+        },{
+            "id": 6,
+            "campaignId": 2,
+            "userId": 6,
+            "amount": 5000,
+            "rewardId": 6
+        },{
+            "id": 7,
+            "campaignId": 2,
+            "userId": 7,
+            "amount": 5000,
+            "rewardId": 7
+        },{
+            "id": 8,
+            "campaignId": 2,
+            "userId": 8,
+            "amount": 3000,
+            "rewardId": 8
+        },{
+            "id": 9,
+            "campaignId": 3,
+            "userId": 9,
+            "amount":3070,
+            "rewardId": 9
+        },{
+            "id": 10,
+            "campaignId": 3,
+            "userId": 10,
+            "amount":8070,
+            "rewardId": 10
+        },{
+            "id": 11,
+            "campaignId": 3,
+            "userId": 11,
+            "amount":4070,
+            "rewardId": 11
+        },{
+            "id": 12,
+            "campaignId": 3,
+            "userId": 12,
+            "amount":4070,
+            "rewardId": 12
+        }
+    ],
+    "blogs": []
+}
