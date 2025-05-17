@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Dashboard/style/Dashboard.css">
+    <link rel="stylesheet" href="/Style/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<body>
+    <header class="NavBar container-fluid">
+        <div class="d-flex flex-row align-items-center">
+            <button id="toggle"><img src="/assets/images/Burger.png" alt="burgerIcon"></button>
+            <img src="/assets/images/logoY.svg" alt="logo">
+            <h3>Admin Dashboard</h3>
+        </div>
+    </header>
+    <hr>
+    <main class="MainPage">
+        <aside class="PagesDashboard " id="aside">
+            <div class="sidebar d-flex flex-column">
+                <a href="home.html">Home</a>
+                <a href="Donation.html">Donation </a>
+                <a href="Cases.html">Cases</a>
+                <a href="Donaters.html">Donors</a>
+                <a href="create.html">Add Cases</a>
+            </div>
+        </aside>
+        <section class="Contant">
+            <form action="">
+                <div class="Part_image">
+                    <p>Upload image</p>
+                <input type="file">
+                </div>
+                 <div class="Part_title">
+                    <label for="title">title</label>
+                <input type="text">
+                </div>
+                <div class="Part_cat">
+                    <select name="Category" id="Category">
+                        <option value="">Healthy</option>
+                        <option value="">Education</option>
+                        <option value="">Food</option>
+                        <option value="">unemployment</option>
+                    </select>
+                </div>
+                 <div class="Part_amount">
+                    <label for="number">required amount</label>
+                <input type="number">
+                </div>
+                <div class="Part_data">
+                    <label for="title">deadline</label>
+                <input type="date">
+                </div>
+                <div class="Part_description">
+                    <label for="description">description</label>
+              <textarea name="description" id="description"></textarea>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/Dashboard/scripts/Dashbiard.js" defer></script>
+</body>
+</body>
+</html>
